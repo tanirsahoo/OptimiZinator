@@ -5,7 +5,7 @@ check.addEventListener('click' , () =>{
     let int_value = parseInt(pin_value) ;
     if(int_value >= 100000 && int_value <= 999999){
     
-    const apiUrl = 'http://localhost:8080/api/data';
+    const apiUrl = 'http://34.100.168.215:8080/api/data';
     const dataToSend = pin_value;
 
     fetch(apiUrl, {
